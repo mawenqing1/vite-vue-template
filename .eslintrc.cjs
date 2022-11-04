@@ -2,6 +2,7 @@ module.exports = {
     env: {
         browser: true,
         es2021: true,
+        commonjs: true,
         'vue/setup-compiler-macros': true
     },
     extends: [

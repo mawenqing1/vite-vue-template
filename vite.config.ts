@@ -3,7 +3,7 @@ import { normalizePath } from "vite";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
 import viteEslint from "vite-plugin-eslint";
-import StylelintPlugin from 'vite-plugin-stylelint';
+import StylelintPlugin from "vite-plugin-stylelint";
 
 const variablePath = normalizePath(path.resolve("./src/assets/style/variable.less"));
 
